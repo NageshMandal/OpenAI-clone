@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "ColfaxAI",helvetica,sans-serif;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.top-nav{
+    background-color: #fff;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    border-bottom:1px solid #eaeaea;
+}
+.pheader-left {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-around;
+}
+.navbar{
+    display: inline-flex;
+}
+.navbar{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+.pheader-nav {
+    align-items: center;
+    display: flex;
+    flex: 0 1;
+    justify-content: space-around;
+}
+.pheader-nav a{
+    font-size:14px;
+    letter-spacing:1px;
+    color: #888888;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.pheader-nav a:hover{
+    color: #10a37f;
+}
+ion-icon{
+    color: black;
+    font-size:25px;
+}
+.pheader-right .nav-item{
+    display:inline;
+    color: #888888;
+    font-size:15px;
+    margin-right:20px;
+}
+.pheader-right #signup{
+    padding:8px 8px;
+    color: #fff;
+    background-color:#10a37f;
+    border-radius: 5px;
+}
+.docs-nav {
+    border-right: 1px solid var(--gray-100);
+    flex: 0 0 auto;
+    overflow: auto;
+    padding: 50px 0 20px;
+    width: 220px;
+    height: 750px;
+    margin-left: 20px;
+}
+div {
+    display: block;
+}
+.side-nav ul li{
+    color: #6e6e80;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top:8px;
+    padding: 5px;
+    cursor: pointer;
+}
+.page-body {
+    flex: 1 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 100%;
+}
+.side-nav ul li:hover{
+    background-color: #ececf1;
+    border-radius:2px;
+    color: rgb(39, 39, 39);
+}
+
+.side-nav-header{
+    letter-spacing: 2.5px;
+    font-size: 14px;
+    font-weight: 550;
+    
+}
+.docs-body{
+    padding: 30px;
+    width: 900px;
+    margin-top: 5px;
+}
+.docs-body h1{
+    color:RGB(53, 55, 64);
+    margin-bottom: 40px;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+.anchor-heading-root h3{
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+}
+.docs-body .p1{
+    
+    line-height: 30px;
+    letter-spacing: 0.05rem;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+.anchor-heading-root h2{
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.docs-body .p2{
+    
+    line-height: 30px;
+    letter-spacing: 0.05rem;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.page-link{
+    flex: 1 1 auto;
+    min-width: 0;
+}
+.icon-item-icon ion-icon{
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(93, 42, 223);
+}
+.icon-item {
+    align-items: flex-start;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    min-width: 0;
+    transition: opacity .15s;
+    margin-bottom: 40px;
+}
+.icon-item-icon {
+    border-radius: 4px;
+    color: #fff;
+    flex: 0 0 auto;
+    font-size: 24px;
+    line-height: 0px;
+    
+}
+.icon-item-right {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding-left: 16px;
+}
+.icon-item-title {
+    color: #202123;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-top: 8px;
+    transition: color .15s;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+.icon-item-desc {
+    color: gray;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 10px;
+    font-size: 13.5px;
+    letter-spacing: 1px;
+}
+.para3 .anchor{
+    margin-bottom:20px;
+}
+.para3 .p3{
+    line-height: 27px;
+    letter-spacing: 0.05rem;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.para4 .anchor{
+    margin-bottom:20px;
+}
+.para4 .p4{
+    line-height: 27px;
+    letter-spacing: 0.05rem;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.para5 .anchor{
+    margin-bottom:20px;
+}
+.para5 .p5{
+    line-height: 27px;
+    letter-spacing: 0.05rem;
+    font-size: 16px;
+    margin-bottom: 15px;
+}

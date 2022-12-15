@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 23% auto;
+    grid-template-rows: 40px auto 60px;
+    grid-template-areas: "hd hd"
+                         "sidebar main"
+                         "footer footer";
+}
+aside {
+    grid-area: sidebar;
+    position: fixed;
+    margin-top: 60px;
+}
+
+main {
+    margin-top: 20px;
+    grid-area: main;
+}
+

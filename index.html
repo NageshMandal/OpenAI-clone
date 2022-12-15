@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Course</title>
+    <link rel="preconnect" href="https://cdn.openai.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style2.css">
+</head>
+<body>
+    <div class="top-nav">
+        <div class="navbar">
+            <div class="pheader-left">
+                <div class="pheader-nav pheader-menu-active">
+                    <ion-icon name="flower-outline"></ion-icon>
+                    <a class="nav-item">Overview</a>
+                    <a class="nav-item ">Documentation</a>
+                    <a class="nav-item">Examples</a>
+                </div>
+            </div>
+            <div class="pheader-right">
+                <div class="pheader-menu pheader-menu-desktop">
+                    <div class="pheader-menu-desktop-auth">
+                        <div class="nav-item" role="button">Log in</div>
+                        <div class="nav-item" role="button" id="signup">Sign up</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+    <aside>
+        <div class="page-body full-width flush docs-page">
+            <div class="docs-nav">
+                <div class="side-nav side-nav-padded">
+                    <div class="side-nav-section">
+                        <div class="side-nav-header subheading">Get started</div>
+                        <ul>
+                            <li class="scroll-link side-nav-item" href="/docs/introduction">Introduction</li>
+                            <li aria-current="page" class="scroll-link side-nav-item side-nav-child active" href="/docs/introduction/overview">Overview</li>
+                            <li class="scroll-link side-nav-item side-nav-child" href="/docs/introduction/key-concepts">Key concepts</li>
+                            <li class="scroll-link side-nav-item side-nav-child" href="/docs/introduction/next-steps">Next steps</li>
+                            <li class="scroll-link side-nav-item" href="/docs/quickstart">Quickstart tutorial</li>
+                            <li class="scroll-link side-nav-item" href="/docs/libraries">Libraries</li>
+                            <li class="scroll-link side-nav-item" href="/docs/models">Models</li>
+                            <li class="scroll-link side-nav-item" href="/docs/usage-policies">Usage policies</li>
+                        </ul>
+                    </div>
+                    <div class="side-nav-section">
+                        <div class="side-nav-header subheading">Guides</div>
+                            <ul>
+                                <li class="scroll-link side-nav-item" href="/docs/guides/completion">Text completion</li>
+                                <li class="scroll-link side-nav-item" href="/docs/guides/code">Code completion</li>
+                                <li class="scroll-link side-nav-item" href="/docs/guides/images">Image generation</li>
+                                <li class="scroll-link side-nav-item" href="/docs/guides/fine-tuning">Fine-tuning</li>
+                                <li class="scroll-link side-nav-item" href="/docs/guides/embeddings">Embeddings</li>
+                                <li class="scroll-link side-nav-item" href="/docs/guides/moderation">Moderation</li>
+                                <li class="scroll-link side-nav-item" href="/docs/guides/safety-best-practices">Safety best practices</li>
+                                <li class="scroll-link side-nav-item" href="/docs/guides/production-best-practices">Production best practices</li>
+                            </ul>
+                    </div>
+                    <div class="side-nav-section">
+                        <div class="side-nav-header subheading">API Reference</div>
+                            <ul>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/introduction">Introduction</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/authentication">Authentication</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/making-requests">Making requests</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/models">Models</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/completions">Completions</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/edits">Edits</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/images">Images</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/embeddings">Embeddings</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/files">Files</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/fine-tunes">Fine-tunes</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/moderations">Moderations</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/engines">Engines</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/parameter-details">Parameter details</li>
+                            </ul>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <main>
+        <div class="docs-body">
+            <div class="markdown-page markdown-content docs-introduction-page markdown-prompt-blockquote">
+                <div class="anchor-heading-root">
+                        <h1 class="anchor-heading">Introduction</h1>
+                </div>
+                <div class="anchor-heading-root">
+                        <h3 class="anchor-heading">Overview</h3>
+                </div>
+                <p class="p1">The OpenAI API can be applied to virtually any task that involves understanding or generating natural language or code. We offer a spectrum of models
+                        with different levels of power suitable for different tasks, as well as the ability to fine-tune your own custom models. These models can be used for
+                        everything from content generation to semantic search and classification.</p>
+                
+                <div class="anchor-heading-root">
+                        <h2 class="anchor-heading" name="key-concepts">Key concepts</h2>
+                </div>
+                    <p class="p2">We recommend completing our quickstart tutorial to get acquainted with key concepts through a hands-on, interactive example.</p> 
+                <div class="icon-item mt-6 mb-10">
+                    <div class="icon-item-icon purple-gradient-bg">
+                        <ion-icon name="play-forward-outline"></ion-icon>
+                    </div>
+                    <div class="icon-item-right">
+                        <div class="icon-item-title body-large bold">Quickstart tutorial</div>
+                        <div class="icon-item-desc body-small">Learn by building a quick sample application</div>
+                    </div>
+                </div>
+                <div class="para3">
+                    <h2 class="anchor" name="key-concepts">Prompts and completions</h2>
+                    <p class="p3">The <a href="#">completions</a> 
+                        endpoint is at the center of our API. It provides a simple interface to our models that is extremely 
+                        flexible and powerful. You input some text as a <strong>prompt</strong>, and the model will generate a text 
+                        <strong>completion</strong> that attempts to match whatever context or pattern you gave it. For example, 
+                        if you give the API the prompt, “Write a tagline for an ice cream shop”, it will return a completion like 
+                        “We serve up smiles with every scoop!”</p>
+                    <p class="p3">
+                        Designing your prompt is essentially how you “program” the model, 
+                        usually by providing some instructions or a few examples. This is different 
+                        from most other NLP services which are designed for a single task, such as sentiment 
+                        classification or named entity recognition. Instead, the completions endpoint can be used for 
+                        virtually any task including content or code generation, summarization, expansion, conversation, 
+                        creative writing, style transfer, and more.
+                    </p>
+                </div>
+                <div class="para4">
+                    <h2 class="anchor">Tokens</h2>
+                        <p class="p4">Our models understand and process text by breaking it down into tokens. 
+                            Tokens can be words or just chunks of characters. For example, the word “hamburger” 
+                            gets broken up into the tokens “ham”, “bur” and “ger”, while a short and common word 
+                            like “pear” is a single token. Many tokens start with a whitespace, for example “ hello” and “ bye”.
+                            The number of tokens processed in a given API request depends on the length of both your inputs and 
+                            outputs. As a rough rule of thumb, 1 token is approximately 4 characters or 0.75 words 
+                            for English text. One limitation to keep in mind is that your text prompt and generated 
+                            completion combined must be no more than the model's maximum context length (for most models this is 2048 tokens, or about 1500 words). 
+                            Check out our tokenizer tool to learn more about how text translates to tokens.
+                        </p>
+                </div>
+                <div class="para5">
+                    <h2 class="anchor">Models</h2>
+                        <p class="p5">
+                            The API is powered by a set of models with different capabilities 
+                            and price points. Our base GPT-3 models are called Davinci, Curie, Babbage 
+                            and Ada. Our Codex series is a descendant of GPT-3 that’s been trained on both 
+                            natural language and code. To learn more, visit our models documentation.
+                        </p>
+                </div>
+            </div>
+        </div>   
+    </main>
+    <script src="/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
